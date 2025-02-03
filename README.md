@@ -1,4 +1,4 @@
-# myshopdashapp
+# myshopdash web app
 
 This is source code of MyShopDash webb app with the complementary Chrome browser extension, and principal backend codebase. 
 
