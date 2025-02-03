@@ -13,7 +13,7 @@ Contains the web app code which is deployed at https://myshopdash.app/. JS+Vue.
 Contains the code of the extension that can be installed from Chrome Web Store (the extension is used to capture customer's data in a safe way at the customer's computer). JS+Vue
 
 # backend 
-The backend routines used to upload the raw shopping data to the backend DB, parse and enrich it to get it ready for visualising. Python
+The backend routines used to upload the raw shopping data to the backend DB, parse and enrich it to get it ready for visualising. Python, SQL
 
 # further development
 This repo is work in progress.
