@@ -1,0 +1,13 @@
+gcloud functions deploy upload \
+    --project=myshopdash \
+    --runtime=python39 \
+    --region=australia-southeast1 \
+    --entry-point=main \
+    --set-env-vars=ENV='PROD',PROJECT_ID='myshopdash',STORAGE_BUCKET='myshopdash.appspot.com' \
+    --timeout=120 \
+    --max-instances=25 \
+    --memory=512Mi --cpu=0.5 \
+    --trigger-http \
+    --allow-unauthenticated \
+    --gen2 \
+    --service-account=@developer.gserviceaccount.com

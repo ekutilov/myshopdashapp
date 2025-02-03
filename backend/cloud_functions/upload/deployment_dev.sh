@@ -1,0 +1,13 @@
+gcloud functions deploy upload \
+    --project=rewards-viewer-dev \
+    --runtime=python39 \
+    --region=australia-southeast1 \
+    --entry-point=main \
+    --set-env-vars=ENV='DEV',PROJECT_ID='rewards-viewer-dev',STORAGE_BUCKET='rewards-viewer-dev.appspot.com' \
+    --timeout=60 \
+    --max-instances=25 \
+    --memory=512Mi --cpu=0.5 \
+    --trigger-http \
+    --allow-unauthenticated \
+    --gen2 \
+    --service-account=@developer.gserviceaccount.com

@@ -1,0 +1,22 @@
+
+  {
+    "apiKey": "AIzaSyCNG_kX2Nt-R8GaejnOxRu2u-vMgPiXVIk",
+    "authDomain": "myshopdash.firebaseapp.com",
+    "databaseURL": "",
+    "messagingSenderId": "786898858436",
+    "projectId": "myshopdash",
+    "storageBucket": "myshopdash.appspot.com",
+    "appId": "1:786898858436:web:6c81259cb633dc86ddf491"
+  }
+
+
+
+  {
+    "apiKey": "AIzaSyDxzYQiInlyAL-dox6FszXE_cba54yIYFw",
+    "appId": "1:1048696464810:web:712ca8de718a1f2c2b37d3",
+    "authDomain": "rewards-viewer-dev.firebaseapp.com",
+    "databaseURL": "",
+    "messagingSenderId": "1048696464810",
+    "projectId": "rewards-viewer-dev",
+    "storageBucket": "rewards-viewer-dev.appspot.com"
+  }

@@ -1,0 +1,9 @@
+@use 'vuetify/settings' with (
+  $border-radius-root: 0.75rem,
+  $card-elevation: 16,
+  $body-font-family: 'Fira Sans',
+  $heading-font-family: 'Fira Sans',
+  $shadow-key-umbra-opacity: rgba(0, 0, 0, 0.06) ,
+  $shadow-key-penumbra-opacity: rgba(0, 0, 0, 0.03) ,
+  $shadow-key-ambient-opacity: rgba(0, 0, 0, 0.02) ,
+);

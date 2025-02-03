@@ -1,0 +1,14 @@
+gcloud functions deploy parse_v3 \
+    --gen2 \
+    --project=myshopdash \
+    --runtime=python312 \
+    --region=australia-southeast1 \
+    --entry-point=main \
+    --set-env-vars=MSD_ENV='PROD',GOOGLE_CLOUD_PROJECT='myshopdash',STORAGE_BUCKET='myshopdash.appspot.com' \
+    --timeout=500 \
+    --max-instances=25 \
+    --memory=4Gi --cpu=2 \
+    --trigger-event-filters=type=google.cloud.firestore.document.v1.created \
+    --trigger-event-filters=database='(default)' \
+    --trigger-event-filters-path-pattern=document='users/{userId}/uploads/{uploadId}' \
+    --service-account=@developer.gserviceaccount.com

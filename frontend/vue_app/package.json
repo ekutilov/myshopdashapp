@@ -1,0 +1,33 @@
+{
+  "name": "app_build",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tidyjs/tidy": "^2.5.2",
+    "chart.js": "^4.1.0",
+    "chartjs-adapter-moment": "^1.0.1",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "firebase": "^10.1.0",
+    "lodash-es": "^4.17.21",
+    "moment": "^2.29.4",
+    "roboto-fontface": "*",
+    "vue": "^3.2.38",
+    "vue-chartjs": "^5.2.0",
+    "vuetify": "^3.4.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.0.96",
+    "@mdi/js": "^7.0.96",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue-leaflet/vue-leaflet": "^0.10.1",
+    "leaflet": "^1.9.4",
+    "sass": "^1.56.2",
+    "vite": "^3.1.9",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12"
+  }
+}

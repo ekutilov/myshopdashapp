@@ -1,0 +1,14 @@
+gcloud functions deploy parse_v3 \
+    --gen2 \
+    --project=rewards-viewer-dev \
+    --runtime=python312 \
+    --region=australia-southeast1 \
+    --entry-point=main \
+    --set-env-vars=MSD_ENV='DEV',GOOGLE_CLOUD_PROJECT='rewards-viewer-dev',STORAGE_BUCKET='rewards-viewer-dev.appspot.com' \
+    --timeout=540 \
+    --max-instances=25 \
+    --memory=1Gi --cpu=0.5 \
+    --trigger-event-filters=type=google.cloud.firestore.document.v1.created \
+    --trigger-event-filters=database='(default)' \
+    --trigger-event-filters-path-pattern=document='users/{userId}/uploads/{uploadId}' \
+    --service-account=@developer.gserviceaccount.com
