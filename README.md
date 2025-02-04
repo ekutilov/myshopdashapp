@@ -22,3 +22,4 @@ The goal is to develop more connections that would enable the app handle eReceip
 
 # Get started with this code
 If you have a raw file downloaded with the MyShopDash Chrome Extension, you can use Jupyter Notebook: ./backend/cloud_functions/use_examples.ipynb to start using code snippets from this repo to parse and understand this data. 
+Or open and test this notebook directly in Colab: https://colab.research.google.com/drive/1MV2kFSVOmVi2HHl18MKShZH1D-qwSLMS?usp=sharing
