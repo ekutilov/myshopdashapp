@@ -11,4 +11,4 @@ gcloud functions deploy parse_v3 \
     --trigger-event-filters=type=google.cloud.firestore.document.v1.created \
     --trigger-event-filters=database='(default)' \
     --trigger-event-filters-path-pattern=document='users/{userId}/uploads/{uploadId}' \
-    --service-account=@developer.gserviceaccount.com
+    --service-account=parsedevcf@rewards-viewer-dev.iam.gserviceaccount.com

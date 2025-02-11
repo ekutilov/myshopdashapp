@@ -187,7 +187,7 @@ class CloudEventParser():
     @property
     def update_ts(self):
         """Returns the timestamp of the update.""" 
-        return Timestamp(self.payload.value.create_time, unit="s", tz='UTC')
+        return Timestamp(self.payload.value.create_time, unit="s")
 
 
 class Storage():
