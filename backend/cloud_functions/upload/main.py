@@ -69,7 +69,7 @@ def main(request):
             generate_log_message(f'Brand is not allowed: {brand}', request)
             return ("Bad Request", 400)
         
-        if len(content) > 4000000:
+        if len(content) > 10000000:
             generate_log_message('File is too large', request)
             return ("Bad Request", 400)
 
